@@ -27,7 +27,6 @@ cask 'dropbox'
 cask '1password'
 
 # Text Editors/IDEs
-cask 'atom'
 cask 'sublime-text'
 cask 'coderunner'
 
