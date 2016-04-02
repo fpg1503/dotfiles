@@ -3,38 +3,53 @@ cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 
-brew 'ack'
-brew 'coreutils'
-brew 'go'
-brew 'grc'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'libcaca', args: ['with-imlib2']
-brew 'libgit2'
-brew 'openssl'
-brew 'node'
-brew 'readline'
-brew 'postgresql'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'roundup'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'unrar'
+# ---- Brew ---- #
+
+# SCM
+brew 'git-flow'
+brew 'tig'
+
+# iOS
+brew 'carthage'
+brew 'liftoff'
+brew 'natalie'
+
+# Misc Utils
 brew 'wget'
 brew 'youtube-dl'
 
+brew 'argon/mas/mas'
+
+# ----- Casks ----- #
+
+# Password management
 cask '1password'
-cask 'adium'
+
+# Text Editors/IDEs
 cask 'atom'
-cask 'firefox'
-cask 'garmin-express'
+cask 'sublime-text'
+cask 'coderunner'
+
+# Browsers
 cask 'google-chrome'
-cask 'handbrake'
-cask 'mapbox-studio'
-cask 'seashore'
+
+# Messaging
 cask 'slack'
+cask 'goofy'
+cask 'chitchat'
+cask 'skype'
+
+# Gaming
 cask 'steam'
-cask 'transmission'
-cask 'tunnelbear'
+
+# Coding aid
+cask 'charles'
+cask 'reflector'
+cask 'cyberduck'
+cask 'dash'
+cask 'zeplin'
+
+# Misc
 cask 'vlc'
+cask 'receitanet'
+
