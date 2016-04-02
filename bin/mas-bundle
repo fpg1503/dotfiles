@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Installs Mac AppStore apps by running $ZSH/osx/mas.sh.
+
+exec $ZSH/osx/mas.sh

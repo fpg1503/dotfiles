@@ -5,3 +5,6 @@
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
+
+echo "› mas bundle"
+exec $ZSH/osx/mas.sh
