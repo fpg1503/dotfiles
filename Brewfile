@@ -22,7 +22,8 @@ brew 'argon/mas/mas'
 
 # ----- Casks ----- #
 
-# Password management
+# Password and licence management
+cask 'dropbox'
 cask '1password'
 
 # Text Editors/IDEs
