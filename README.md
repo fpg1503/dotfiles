@@ -11,10 +11,11 @@ There's a few special files in the hierarchy.
 
 
 - **Brewfile**: This is a list of [formulae](http://brew.sh) and [casks](http://caskroom.io). You might want to edit this file before running any initial setup.
-
+- **Masfile**: This is a list of Mac App Store App IDs. I use it to install the apps I've purchased through MAS.
 
 - **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
   available everywhere.
+  
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
   environment.
 - **topic/path.zsh**: Any file named `path.zsh` is loaded first and is
