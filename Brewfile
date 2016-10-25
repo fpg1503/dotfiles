@@ -50,6 +50,7 @@ cask 'reflector'
 cask 'cyberduck'
 cask 'dash'
 cask 'zeplin'
+cask 'paw'
 
 # Misc
 cask 'vlc'
