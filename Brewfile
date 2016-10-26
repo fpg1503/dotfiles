@@ -23,6 +23,8 @@ brew 'trash'
 
 brew 'argon/mas/mas'
 
+brew 'npm'
+
 # ----- Casks ----- #
 
 # Password and licence management
