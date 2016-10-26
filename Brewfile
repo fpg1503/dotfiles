@@ -19,6 +19,7 @@ brew 'natalie'
 # Misc Utils
 brew 'wget'
 brew 'youtube-dl'
+brew 'trash'
 
 brew 'argon/mas/mas'
 
@@ -54,5 +55,3 @@ cask 'paw'
 
 # Misc
 cask 'vlc'
-cask 'receitanet'
-
