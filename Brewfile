@@ -57,3 +57,4 @@ cask 'paw'
 
 # Misc
 cask 'vlc'
+cask 'flux'
