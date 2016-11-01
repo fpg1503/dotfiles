@@ -22,6 +22,7 @@ brew 'youtube-dl'
 brew 'trash'
 
 brew 'argon/mas/mas'
+brew 'imagemagick'
 
 brew 'npm'
 
