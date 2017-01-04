@@ -55,6 +55,7 @@ cask 'cyberduck'
 cask 'dash'
 cask 'zeplin'
 cask 'paw'
+cask 'asset-catalog-tinkerer'
 
 # Misc
 cask 'vlc'
