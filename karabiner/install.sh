@@ -6,13 +6,14 @@
 
 
 # Check for Karabiner config
-FILE=~/.config/karabiner/karabiner.json
-if ! [[ -L "$FILE" ]]
+TARGET=~/.config/karabiner/karabiner.json
+SOURCE=~/.dotfiles/karabiner/karabiner.json
+if ! [[ -L "$TARGET" ]]
 then
   echo "  Symlinking karabiner config for you."
 
-  rm $FILE
-  ln -s karabiner.json $FILE
+  rm -f $TARGET
+  ln -s $SOURCE $TARGET
 
 fi
 
