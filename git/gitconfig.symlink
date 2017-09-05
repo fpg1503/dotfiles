@@ -34,3 +34,5 @@
 [user]
 	name = Francesco Perrotti-Garcia
 	email = fpg1503@gmail.com
+[http]
+	sslVerify = true
