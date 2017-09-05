@@ -35,14 +35,14 @@ cask '1password'
 # Text Editors/IDEs
 cask 'sublime-text'
 cask 'coderunner'
+cask 'visual-studio-code'
 
 # Browsers
 cask 'google-chrome'
 
 # Messaging
 cask 'slack'
-cask 'goofy'
-cask 'chitchat'
+cask 'whatsapp'
 cask 'skype'
 
 # Gaming
@@ -56,6 +56,12 @@ cask 'dash'
 cask 'zeplin'
 cask 'paw'
 cask 'asset-catalog-tinkerer'
+
+# Productivity
+
+cask 'alfred'
+cask 'shortcat'
+cask 'karabiner-elements'
 
 # Misc
 cask 'vlc'
