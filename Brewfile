@@ -56,6 +56,7 @@ cask 'dash'
 cask 'zeplin'
 cask 'paw'
 cask 'asset-catalog-tinkerer'
+cask 'iterm2'
 
 # Productivity
 
