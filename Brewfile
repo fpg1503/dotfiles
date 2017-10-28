@@ -4,6 +4,7 @@ tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'thoughtbot/formulae'
 tap 'argon/mas'
+tap 'caskroom/fonts'
 
 # ---- Brew ---- #
 
@@ -67,3 +68,6 @@ cask 'karabiner-elements'
 # Misc
 cask 'vlc'
 cask 'flux'
+
+# Fonts
+cask 'font-monoid'
